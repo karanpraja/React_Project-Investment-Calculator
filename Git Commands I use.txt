@@ -1,0 +1,17 @@
+git reset //all
+git reset HEAD filename//no need of ./
+//code
+Restoring Files from a Specific Commit:
+
+To restore a specific file to its state in a particular commit:
+
+bash
+Copy code
+# Replace 'commit_hash' with the actual commit hash and 'file.txt' with the file name
+//to create a new file use (code <filename>) and save 
+git checkout commit_hash -- file.txt
+PS E:\30Days_of_React\day2> notepad index2.html
+PS E:\30Days_of_React\day2> notepad .gitignore
+PS E:\30Days_of_React\day2> rm .gitignore
+PS E:\30Days_of_React\day2> rm index2.html
+ git mv oldfilename newfilename
